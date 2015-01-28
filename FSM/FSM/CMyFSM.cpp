@@ -25,7 +25,7 @@ void CMyFSM::StateA(FsmEvents e)
 	case UpEvent:
 		break;
 	case DownEvent:
-	SetNextState(StateB);
+		//SetNextState(StateB);
 		break;
 	}
 }
