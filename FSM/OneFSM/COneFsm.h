@@ -51,8 +51,8 @@ private:
 	bool Dispatch(FsmEvents e);
 	void SetNextState(FsmStateFunc_t f);
 		
-	FsmStateFunc_t State;       /**< the current state              */
-	FsmStateFunc_t TargetState; /**< target state during transition */
+	FsmStateFunc_t *State;       /**< the current state              */
+	FsmStateFunc_t *TargetState; /**< target state during transition */
 
 }; //COneFsm
 

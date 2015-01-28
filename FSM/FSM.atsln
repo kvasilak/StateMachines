@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Atmel Studio Solution File, Format Version 11.00
 Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "FSM", "FSM\FSM.cppproj", "{D58824C0-15F7-4DD3-A5A7-74C24ABC75F6}"
 EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "OneFSM", "OneFSM\OneFSM.cppproj", "{4467B25C-6C7C-4594-8B23-E64845712D2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -13,6 +15,10 @@ Global
 		{D58824C0-15F7-4DD3-A5A7-74C24ABC75F6}.Debug|AVR.Build.0 = Debug|AVR
 		{D58824C0-15F7-4DD3-A5A7-74C24ABC75F6}.Release|AVR.ActiveCfg = Release|AVR
 		{D58824C0-15F7-4DD3-A5A7-74C24ABC75F6}.Release|AVR.Build.0 = Release|AVR
+		{4467B25C-6C7C-4594-8B23-E64845712D2A}.Debug|AVR.ActiveCfg = Debug|AVR
+		{4467B25C-6C7C-4594-8B23-E64845712D2A}.Debug|AVR.Build.0 = Debug|AVR
+		{4467B25C-6C7C-4594-8B23-E64845712D2A}.Release|AVR.ActiveCfg = Release|AVR
+		{4467B25C-6C7C-4594-8B23-E64845712D2A}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

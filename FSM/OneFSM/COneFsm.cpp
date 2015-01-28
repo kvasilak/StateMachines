@@ -55,8 +55,8 @@ bool COneFsm::StateB(FsmEvents e)
 //Start the state machine, there HAS to be an initial state
 void COneFsm::Init()
 {
-	State = StateA;
-	State(EventEntry);
+	State = this->StateA;
+	this->State(EventEntry);
 	
 }
 
