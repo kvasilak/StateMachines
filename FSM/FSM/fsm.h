@@ -36,9 +36,9 @@ public:
 	
 
 	CFsm();
-	void Init(FsmStateFunc_t initialstate);
-	bool Dispatch(FsmEvents e);
-	void SetNextState(FsmStateFunc_t f);
+	virtual void Init(FsmStateFunc_t initialstate);
+	virtual bool Dispatch(FsmEvents e);
+	virtual void SetNextState(FsmStateFunc_t f);
 
 private:
 

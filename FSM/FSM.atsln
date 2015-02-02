@@ -5,6 +5,12 @@ Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "FSM", "FSM\FSM.cppproj", "{
 EndProject
 Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "OneFSM", "OneFSM\OneFSM.cppproj", "{4467B25C-6C7C-4594-8B23-E64845712D2A}"
 EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "FastDelegate", "Delegate\FastDelegate.cppproj", "{0D88B514-D5F2-43C5-BA54-A895C90D6D05}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "CPPDelegate", "CPPDelegate\CPPDelegate.cppproj", "{21EB4CD1-21AD-4352-82B0-152CCD7A68A0}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "StatePattern", "StatePattern\StatePattern.cppproj", "{03C62C94-72C7-44A0-A36A-85954A3C8AFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -12,13 +18,21 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D58824C0-15F7-4DD3-A5A7-74C24ABC75F6}.Debug|AVR.ActiveCfg = Debug|AVR
-		{D58824C0-15F7-4DD3-A5A7-74C24ABC75F6}.Debug|AVR.Build.0 = Debug|AVR
 		{D58824C0-15F7-4DD3-A5A7-74C24ABC75F6}.Release|AVR.ActiveCfg = Release|AVR
 		{D58824C0-15F7-4DD3-A5A7-74C24ABC75F6}.Release|AVR.Build.0 = Release|AVR
 		{4467B25C-6C7C-4594-8B23-E64845712D2A}.Debug|AVR.ActiveCfg = Debug|AVR
-		{4467B25C-6C7C-4594-8B23-E64845712D2A}.Debug|AVR.Build.0 = Debug|AVR
 		{4467B25C-6C7C-4594-8B23-E64845712D2A}.Release|AVR.ActiveCfg = Release|AVR
 		{4467B25C-6C7C-4594-8B23-E64845712D2A}.Release|AVR.Build.0 = Release|AVR
+		{0D88B514-D5F2-43C5-BA54-A895C90D6D05}.Debug|AVR.ActiveCfg = Debug|AVR
+		{0D88B514-D5F2-43C5-BA54-A895C90D6D05}.Release|AVR.ActiveCfg = Release|AVR
+		{0D88B514-D5F2-43C5-BA54-A895C90D6D05}.Release|AVR.Build.0 = Release|AVR
+		{21EB4CD1-21AD-4352-82B0-152CCD7A68A0}.Debug|AVR.ActiveCfg = Debug|AVR
+		{21EB4CD1-21AD-4352-82B0-152CCD7A68A0}.Release|AVR.ActiveCfg = Release|AVR
+		{21EB4CD1-21AD-4352-82B0-152CCD7A68A0}.Release|AVR.Build.0 = Release|AVR
+		{03C62C94-72C7-44A0-A36A-85954A3C8AFF}.Debug|AVR.ActiveCfg = Debug|AVR
+		{03C62C94-72C7-44A0-A36A-85954A3C8AFF}.Debug|AVR.Build.0 = Debug|AVR
+		{03C62C94-72C7-44A0-A36A-85954A3C8AFF}.Release|AVR.ActiveCfg = Release|AVR
+		{03C62C94-72C7-44A0-A36A-85954A3C8AFF}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

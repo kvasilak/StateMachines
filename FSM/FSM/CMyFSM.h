@@ -23,6 +23,8 @@ public:
 protected:
 private:
 
+	virtual bool Dispatch(FsmEvents e);
+	virtual void SetNextState(FsmStateFunc_t f);
 
 }; //CMyFSM
 

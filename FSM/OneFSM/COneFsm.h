@@ -29,21 +29,18 @@ class COneFsm
 
 public:
 	COneFsm();
-	~COneFsm();
-	
-
 
 	private:
 	
 	//states
-	bool StateA(FsmEvents e);
-	bool StateB(FsmEvents e);
+	//bool StateA(FsmEvents e);
+	//bool StateB(FsmEvents e);
 
 	
 protected:
 private:
-	COneFsm( const COneFsm &c );
-	COneFsm& operator=( const COneFsm &c );
+	//COneFsm( const COneFsm &c );
+	//COneFsm& operator=( const COneFsm &c );
 	
 	
 	void Run();

@@ -16,37 +16,40 @@ COneFsm::COneFsm()
 
 
 
-bool COneFsm::StateA(FsmEvents e)
-{
-	switch (e)
-	{
-		case EventEntry:
-			break;
-		case EventExit:
-			break;
-		case UpEvent:
-			break;
-		case DownEvent:
-		//SetNextState(StateB);
-			break;
-	}
-}
+//bool COneFsm::StateA(FsmEvents e)
+//{
+	//switch (e)
+	//{
+		//case EventEntry:
+			//break;
+		//case EventExit:
+			//break;
+		//case UpEvent:
+			//break;
+		//case DownEvent:
+		////SetNextState(StateB);
+			//break;
+	//}
+//	return true;
+//}
 
-bool COneFsm::StateB(FsmEvents e)
-{
-	switch (e)
-	{
-		case EventEntry:
-			break;
-		case EventExit:
-			break;
-		case UpEvent:
-		//SetNextState(StateA);
-			break;
-		case DownEvent:
-			break;
-	}
-}
+//bool COneFsm::StateB(FsmEvents e)
+//{
+	//switch (e)
+	//{
+		//case EventEntry:
+			//break;
+		//case EventExit:
+			//break;
+		//case UpEvent:
+		////SetNextState(StateA);
+			//break;
+		//case DownEvent:
+			//break;
+	//}
+	
+//	return true;
+//}
 
 
 ////State machine code ////////////////////////////////////////////////
@@ -55,8 +58,8 @@ bool COneFsm::StateB(FsmEvents e)
 //Start the state machine, there HAS to be an initial state
 void COneFsm::Init()
 {
-	State = this->StateA;
-	this->State(EventEntry);
+	//State = this->StateA;
+	//this->State(EventEntry);
 	
 }
 

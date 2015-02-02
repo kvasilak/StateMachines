@@ -45,3 +45,13 @@ void CMyFSM::StateB(FsmEvents e)
 			break;
 	}
 }
+
+virtual bool Dispatch(FsmEvents e)
+{
+	
+}
+
+virtual void SetNextState(FsmStateFunc_t f)
+{
+	
+}
